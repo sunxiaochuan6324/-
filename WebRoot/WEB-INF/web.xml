@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ll.zuoyeshangjiaoxitong</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>noteUpload</servlet-name>
+    <servlet-class>com.zuoyeshangjiaoxitong.servlet.noteUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>libsUpload</servlet-name>
+    <servlet-class>com.zuoyeshangjiaoxitong.servlet.libsUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>libsDownload</servlet-name>
+    <servlet-class>com.zuoyeshangjiaoxitong.servlet.libsDownload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>hwUpload</servlet-name>
+    <servlet-class>com.zuoyeshangjiaoxitong.servlet.hwUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>hwDownload</servlet-name>
+    <servlet-class>com.zuoyeshangjiaoxitong.servlet.hwDownload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userInfo</servlet-name>
+    <servlet-class>com.zuoyeshangjiaoxitong.servlet.userInfo</servlet-class>
+  </servlet>
+
+
+
+
+
+  
+
+
+
+  <servlet-mapping>
+    <servlet-name>noteUpload</servlet-name>
+    <url-pattern>/noteUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>libsUpload</servlet-name>
+    <url-pattern>/libsUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>libsDownload</servlet-name>
+    <url-pattern>/libsDownload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hwUpload</servlet-name>
+    <url-pattern>/hwUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hwDownload</servlet-name>
+    <url-pattern>/hwDownload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userInfo</servlet-name>
+    <url-pattern>/userInfo</url-pattern>
+  </servlet-mapping>
+  
+  
+    
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
